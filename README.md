@@ -1,19 +1,32 @@
 # Calculadora IMC
-Desc
+Este é um projeto de aprendizado, uma simples calculadora desenvolvioda em linguagem de programação Kotlin para calcular o IMC de uma pessoas de acordo com os dados fornecidos pelo usuário.
 
 ## :camera_flash: Screenshots
 <!-- You can add more screenshots here if you like -->
-Screenshots
+<img src="https://github.com/user-attachments/assets/9a75cbbd-de06-43d1-8a60-e70ab192426a" width=160/>
+<img src="https://github.com/user-attachments/assets/53446d35-1dc6-46b1-b9ff-b75b771e07aa" width=160/>
+<img src="https://github.com/user-attachments/assets/b323ed70-502b-4b39-bfad-183d8cff1fcb" width=160/>
+
 
 ## Tecnologias
-Techs
+- Activity
+- Intent
+- SnackBar
+- ViewGroups
+  - LinearLayuot
+  - ConstraintLayout
+- View
+  - ImageView
+  - TextView
+  - EditText
+  - Button   
 
 
 ## License
 ```
 The MIT License (MIT)
 
-Copyright (c) 2023 Roque Buarque Junior
+Copyright (c) 2024 Rodrigo Oliveira
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of
 this software and associated documentation files (the "Software"), to deal in
