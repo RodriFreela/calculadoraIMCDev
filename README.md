@@ -5,7 +5,8 @@ Este é um projeto de aprendizado, uma simples calculadora desenvolvioda em ling
 <!-- You can add more screenshots here if you like -->
 <img src="https://github.com/user-attachments/assets/9a75cbbd-de06-43d1-8a60-e70ab192426a" width=160/>
 <img src="https://github.com/user-attachments/assets/53446d35-1dc6-46b1-b9ff-b75b771e07aa" width=160/>
-<img src="https://github.com/user-attachments/assets/b323ed70-502b-4b39-bfad-183d8cff1fcb" width=160/>
+<img src="https://github.com/user-attachments/assets/61b7012c-2e0a-4b0d-9071-21cefb3d3542" width=160/>
+
 
 
 ## Tecnologias
