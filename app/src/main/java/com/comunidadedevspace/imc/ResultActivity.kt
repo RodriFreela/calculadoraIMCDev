@@ -35,29 +35,5 @@ class ResultActivity : AppCompatActivity() {
 
         tvClassificacao.text = classificacao
 
-
-       /* if (result <= 18.5){
-            println("Seu imc mostra que você está na classificação Magreza")
-        }
-        else if (result > 18.5 && result <= 24.9){
-            println("Seu imc mostra que você está na classificação Normal")
-        }
-        else if (result >= 25.0 && result <= 29.9){
-            println("Seu imc mostra que você está na classificação Sobrepeso")
-        }
-        else if (result >= 30.0 && result <= 39.9){
-            println("Seu imc mostra que você está na classificação Obesidade")
-        }
-        else
-            println("Seu imc mostra que você está na classificação Obesidade Grave")
-       */
-
-
-
-        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
-            val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
-            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
-            insets
-        }
     }
 }
