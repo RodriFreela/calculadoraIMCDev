@@ -70,6 +70,134 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textStyle="bold"
+        android:textColor="@color/primary_900"
         android:textSize="24sp"
         tools:text="NORMAL" />
+
+    <!-- TABELA IMC -->
+    <TableLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:padding="16dp"
+        android:id="@+id/tableLayout">
+
+        <!-- Linha 1 -->
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="IMC"
+                android:padding="8dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Classificação"
+                android:padding="8dp" />
+        </TableRow>
+
+        <!-- Linha 2 -->
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Menor que 18.5"
+                android:padding="8dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Magreza"
+                android:padding="8dp" />
+        </TableRow>
+
+        <!-- Linha 3 -->
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Entre 18.5 e 24.9"
+                android:padding="8dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Normal"
+                android:padding="8dp" />
+
+        </TableRow>
+
+        <!-- Linha 4 -->
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Entre 25.0 e 29.9"
+                android:padding="8dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sobrepeso"
+                android:padding="8dp" />
+
+        </TableRow>
+
+        <!-- Linha 5 -->
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Entre 30.0 e 39.9"
+                android:padding="8dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Obesidade"
+                android:padding="8dp" />
+        </TableRow>
+
+        <!-- Linha 6 -->
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Maior que 40.0"
+                android:padding="8dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Obesidade grave"
+                android:padding="8dp" />
+        </TableRow>
+
+    </TableLayout>
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <Button
+        android:id="@+id/novo_calculo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:text="Novo Cálculo"
+        android:textStyle="bold"
+        android:textSize="16dp"
+        />
+
+<!--app:layout_constraintBottom_toBottomOf="parent"
+app:layout_constraintTop_toBottomOf="@+id/tableLayout"
+android:layout_marginTop="20dp"
+app:layout_constraintStart_toStartOf="parent"-->
+
 </LinearLayout>

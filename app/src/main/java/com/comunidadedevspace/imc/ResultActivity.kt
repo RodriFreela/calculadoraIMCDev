@@ -1,6 +1,8 @@
 package com.comunidadedevspace.imc
 
+import android.content.Intent
 import android.os.Bundle
+import android.widget.Button
 import android.widget.TextView
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
@@ -22,18 +24,26 @@ class ResultActivity : AppCompatActivity() {
         tvResult.text = result.toString()
 
         val  classificacao: String = if (result <= 18.5f){
-            "Magreza"
+            "MAGREZA"
         } else if (result > 18.5f && result <= 24.9f){
-            "Normal"
+            "NORMAL"
         } else if (result > 24.9f && result <= 29.9f){
-            "Sobrepeso"
+            "SOBREPESO"
         } else if (result > 29.9f && result <= 39.9f){
-            "Obesidade"
+            "OBESIDADE"
         } else {
-            "Obesidade Grave"
+            "OBESIDADE GRAVE"
         }
 
         tvClassificacao.text = classificacao
+
+        val novo_Calculo = findViewById<Button>(R.id.novo_calculo)
+
+        novo_Calculo.setOnClickListener{
+            val main_Screen = Intent(this, MainActivity::class.java)
+            startActivity(main_Screen)
+        }
+
 
     }
 }
