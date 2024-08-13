@@ -12,7 +12,7 @@ Este é um projeto de aprendizado, uma simples calculadora desenvolvioda em ling
 - Intent
 - SnackBar
 - ViewGroups
-  - LinearLayuot
+  - LinearLayout
   - ConstraintLayout
 - View
   - ImageView
