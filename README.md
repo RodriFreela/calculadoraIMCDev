@@ -5,16 +5,14 @@ Este é um projeto de aprendizado, uma simples calculadora desenvolvioda em ling
 <!-- You can add more screenshots here if you like -->
 <img src="https://github.com/user-attachments/assets/9a75cbbd-de06-43d1-8a60-e70ab192426a" width=160/>
 <img src="https://github.com/user-attachments/assets/53446d35-1dc6-46b1-b9ff-b75b771e07aa" width=160/>
-<img src="https://github.com/user-attachments/assets/61b7012c-2e0a-4b0d-9071-21cefb3d3542" width=160/>
-
-
+<img src="https://github.com/user-attachments/assets/f886a4e8-90aa-435d-acda-dd3e179ba9d8" width=160/>
 
 ## Tecnologias
 - Activity
 - Intent
 - SnackBar
 - ViewGroups
-  - LinearLayuot
+  - LinearLayout
   - ConstraintLayout
 - View
   - ImageView
